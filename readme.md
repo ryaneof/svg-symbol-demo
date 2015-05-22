@@ -13,13 +13,19 @@ npm start
 
 ### Generate SVG Symbols
 
-`./svg-source/` is where you put standalone sag source files which created by your awesome designer.
+SVG source files created by your awesome designer.
 
-`./app/images/icon-svg-symbol.svg` is the default generated file.
+```
+./svg-source/
+```
 
-You can change these settings by editing `./generate-svg-symbols.js`.
+Default generated file name.
 
-Run the following command:
+```
+./app/images/icon-svg-symbol.svg
+```
+
+Generate!
 
 ```
 node ./generate-svg-symbols.js
