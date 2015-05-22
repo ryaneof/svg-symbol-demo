@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG Symbol Demo</title>
+  <style>
+    .icon-svg {
+      display: inline-block;
+    }
+
+    .icon-svg-home svg {
+      width: 30px;
+      height: 32px;
+    }
+
+    .icon-svg-faq svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .icon-svg-check svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .icon-svg-checked svg {
+      width: 32px;
+      height: 32px;
+    }
+  </style>
+</head>
+<body>
+  <h2>SVG Symbol Demo</h2>
+  <p>
+    <span class="icon-svg icon-svg-home">
+      <svg>
+        <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-home"></use>
+      </svg>
+    </span>
+    <span class="icon-svg icon-svg-faq">
+      <svg>
+        <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-faq"></use>
+      </svg>
+    </span>
+    <span class="icon-svg icon-svg-check">
+      <svg>
+        <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-check"></use>
+      </svg>
+    </span>
+    <span class="icon-svg icon-svg-checked">
+      <svg>
+        <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-checked"></use>
+      </svg>
+    </span>
+  </p>
+</body>
+</html>

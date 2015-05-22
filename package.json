@@ -1,0 +1,16 @@
+{
+  "name": "svg-symbol-demo",
+  "version": "0.0.1",
+  "description": "A simple demo based on svg-sprite, generate SVG symbol with PNG Sprites fallback.",
+  "dependencies": {
+    "browser-sync": "*",
+    "svg-sprite": "*",
+    "mkdirp": "*",
+    "vinyl": "*",
+    "glob": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
