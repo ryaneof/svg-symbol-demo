@@ -8,7 +8,11 @@ Node.js (0.12.*)
 
 [svg-sprite](https://github.com/jkphl/svg-sprite)
 
-## Resources
+[svgo](https://github.com/svg/svgo)
+
+[svgshelf](https://github.com/bitinn/svgshelf)
+
+[grunticon](https://github.com/filamentgroup/grunticon)
 
 [gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite)
 
@@ -18,8 +22,12 @@ Node.js (0.12.*)
 
 [svg-fallback](https://github.com/yoksel/svg-fallback)
 
+[gulp-svgmin](https://github.com/ben-eb/gulp-svgmin)
+
 
 ## References
+
+[awesome-svg](https://github.com/willianjusten/awesome-svg)
 
 [A Complete Guide to SVG Fallbacks](https://css-tricks.com/a-complete-guide-to-svg-fallbacks/)
 
