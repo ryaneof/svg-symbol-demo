@@ -8,6 +8,31 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <style>
+      .icon-svg {
+        display: inline-block;
+      }
+
+      .icon-svg-home svg {
+        width: 30px;
+        height: 32px;
+      }
+
+      .icon-svg-faq svg {
+        width: 32px;
+        height: 32px;
+      }
+
+      .icon-svg-check svg {
+        width: 32px;
+        height: 32px;
+      }
+
+      .icon-svg-checked svg {
+        width: 32px;
+        height: 32px;
+      }
+    </style>
   </head>
   <body>
     <section class="page-header">
@@ -19,7 +44,72 @@
     </section>
 
     <section class="main-content">
-      <p>testing</p>
+      <p>The following four icons request from <a href="images/icon-svg-symbol.svg"><code>images/icon-svg-symbol.svg</code></a>, a combination of these icons using SVG Symbol.</p>
+      
+      <p>
+        <span class="icon-svg icon-svg-home">
+          <svg>
+            <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-home"></use>
+          </svg>
+        </span>
+        <span class="icon-svg icon-svg-faq">
+          <svg>
+            <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-faq"></use>
+          </svg>
+        </span>
+        <span class="icon-svg icon-svg-check">
+          <svg>
+            <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-check"></use>
+          </svg>
+        </span>
+        <span class="icon-svg icon-svg-checked">
+          <svg>
+            <use xlink:href="images/icon-svg-symbol.svg#svg-symbol-checked"></use>
+          </svg>
+        </span>
+      </p>
+
+      <p>The concept of <code>SVG Symbol</code> is quite simple:</p>
+
+      <pre>
+        <code>
+&lt;p&gt;
+  &lt;span class="icon-svg icon-svg-home"&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href="images/icon-svg-symbol.svg#svg-symbol-home"&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;span class="icon-svg icon-svg-faq"&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href="images/icon-svg-symbol.svg#svg-symbol-faq"&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;span class="icon-svg icon-svg-check"&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href="images/icon-svg-symbol.svg#svg-symbol-check"&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;span class="icon-svg icon-svg-checked"&gt;
+    &lt;svg&gt;
+      &lt;use xlink:href="images/icon-svg-symbol.svg#svg-symbol-checked"&gt;&lt;/use&gt;
+    &lt;/svg&gt;
+  &lt;/span&gt;
+&lt;/p&gt;
+        </code>
+      </pre>
+
+      <p>You can learn more about SVG Symbol on CSS Tricks. Here're some references:</p>
+
+      <ul>
+        <li>
+          <a href="https://css-tricks.com/svg-symbol-good-choice-icons/">SVG `symbol` a Good Choice for Icons</a>
+        </li>
+        <li>
+          <a href="https://css-tricks.com/svg-use-with-external-reference-take-2/">SVG `use` with External Reference, Take 2</a>
+        </li>
+      </ul>
+
+      <p>You can also check out my speech about this in 2015. It's in Chinese: <a href="https://ryan.im/flexible-web-icons.pdf">灵活的 Web 图标</a></p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/ryaneof/svg-symbol-demo">svg-symbol-demo</a> is maintained by <a href="https://github.com/ryaneof">ryaneof</a>.</span>
