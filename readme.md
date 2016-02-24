@@ -20,12 +20,14 @@ Node.js (> 0.12)
 ## References
 
 - [awesome-svg](https://github.com/willianjusten/awesome-svg)
+- [SVG `symbol` a Good Choice for Icons](https://css-tricks.com/svg-symbol-good-choice-icons/)
+- [SVG `use` with External Reference, Take 2](https://css-tricks.com/svg-use-with-external-reference-take-2/)
 - [A Complete Guide to SVG Fallbacks](https://css-tricks.com/a-complete-guide-to-svg-fallbacks/)
 - [A Compendium of SVG Information](https://css-tricks.com/mega-list-svg-information/)
 - [Using SVG](https://css-tricks.com/using-svg/)
 - [Inline SVG vs Icon Fonts](https://css-tricks.com/icon-fonts-vs-svg/)
 - [Ten reasons we switched from an icon font to SVG](http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/?utm_source=ourjs.com)
-
+- [My speech about this in Chinese: 灵活的 Web 图标](https://ryan.im/flexible-web-icons.pdf)
 
 ## Up and Running
 
