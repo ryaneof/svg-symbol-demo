@@ -27,7 +27,7 @@ Node.js (> 0.12)
 - [Using SVG](https://css-tricks.com/using-svg/)
 - [Inline SVG vs Icon Fonts](https://css-tricks.com/icon-fonts-vs-svg/)
 - [Ten reasons we switched from an icon font to SVG](http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/?utm_source=ourjs.com)
-- [My speech about this in Chinese: 灵活的 Web 图标](https://ryan.im/flexible-web-icons.pdf)
+- [My speech about this in Chinese: 灵活的 Web 图标](https://ryan.im/documents/flexible-web-icons.pdf)
 
 ## Up and Running
 
